@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/background.jpg);
+    background-position-y: -350px;
+    background-position-x: -1710px;
+    background-repeat: no-repeat;
+}
+
+/* --Box Pertanyaan-- */
+.container1 {
+    position: relative;
+    top: 50px;
+    width: 340px;
+    height: 200px;
+    background-color: #9e6b55;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.tenor-gif-embed {
+    position: absolute;
+    margin: 20px auto;
+}
+
+.container1 h3 {
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 10px;
+}
+
+/* --Tombol jawab-- */
+.container2 {
+    position: absolute;
+    left: 50%;
+    top: 300px;
+    transform: translate( -50%);
+}
+
+.container2 a {
+    padding: 10px 25px;
+    border-radius: 15px;
+    /* background-color: aqua; */
+    text-decoration: none;
+    background-color: #f99a9c;
+    font-weight: bold;
+    border: 2px solid white;
+    color: white;
+    transition: 0.2s;
+}
+
+.button1:hover {
+    background-color: #e69288;
+    border-color: #f2cf59;
+}
+
+/* --Halaman 2-- */
+.container3 {
+    position: absolute;
+    top: 50px;
+    width: 340px;
+    height: 200px;
+    background-color: #9e6b55;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.tenor-gif-embed {
+    position: absolute;
+    margin: 20px auto;
+}
+
+.container3 h3 {
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 10px;
+}
+
+/* --Tombol jawab 2-- */
+.container4 {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    position: relative;
+    margin: 150px auto;
+}
+
+.container4 a {
+    display: flex;
+    background-color: #f99a9c;
+    width: 90px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    border: 2px solid white;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.button2:hover {
+    background-color: #e69288;
+    border-color: #f2cf59;
+}
+
+.button3:active {
+    transform: translateY(180px);
+}
